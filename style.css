@@ -49,10 +49,11 @@
 	border: 1px solid black;
 	background-color: black;
 	color: white;
-	width: 50%;
-	padding: 1.5% 1%;
+	width: 20%;
+	padding: 4%;
+	border-radius: 30px;
 	text-align: center;
-
+	margin-top: 7%;
 }
 .downloadapp:hover{
 	background-color: white;
@@ -80,12 +81,7 @@
 	color: white;
 
 }
-.div2{
-	display: flex;
-	justify-content: space-between;
-	font-size: 16px;	
-	font-family: sans-serif;
-}
+
 .sec4{
 	text-decoration: none;
 	background-color: darkblue;
@@ -114,45 +110,133 @@
 	font-family: sans-serif;
 }
 .sec5{
-	padding: 7%;
+	padding: 8%;
 	background-color: rgba(239,239,239,0.6);
 }
 .sec5div1{
 	display: flex;
 	justify-content: space-between;
-	padding: 7%;
+	padding: 8%;
 	background-color: white;
 
 }
-
 .pay{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 8%;
 	display: flex;
 	color: black;
-	font-size: 17px;
-	margin-top: 2%;
-}
-.fast{
-	font-size: 35px;
-	font-family: sans-serif;
-	padding: 3%;
-}
-.load{
-	font-size: 35;
-	margin-top: 4%;
-	font-family: sans-serif;
-	font-weight: bold;
 }
 .downloadapp{
 	border: 1px solid black;
 	background-color: black;
 	color: white;
 	width: 55%;
-	padding: 1.5% 1% 2%;
+	padding: 4%;
+	border-radius: 30px;
 	text-align: center;
-	margin-top: 5%;
-	}
+	margin-top: 7%;
 
+}
 .downloadapp:hover{
 	background-color: white;
 	color: black;
+}
+.sec5div2{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 6%;
+	border-radius: 10px;
+	margin-top: 3%;
+}
+.div2 h1{
+	font-size: 30px;
+	margin-bottom: 4%;
+}
+.div2 p {
+	font-size: 17px;
+}
+.upilogo{
+	display:inline-block ;
+	margin-bottom: 6%;
+	padding: 6%;
+}
+.sec5div3{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 6%;
+	border-radius: 10px;
+	margin-top: 3%;
+}
+.div31 h1{
+	font-size: 30px;
+	margin-bottom: 4%;
+}
+.div31 p {
+	font-size: 17px;
+	margin-bottom: 9%;
+}
+
+
+.div31 a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	background-color: #02386e;
+	border-radius: 30px;
+	padding: 2%;
+}
+.div31 a:hover{
+	background-color: #00bbf2;
+}
+.sec5div4{
+	display: flex;
+	border: 1px solid white;
+}
+.div411 a{
+	text-decoration: none;
+	color: black;
+}
+.div411{
+	background-color: white;
+	margin-top: 3%;
+	margin-right: 3%;
+	padding: 9%;
+	padding-bottom: 0%;
+}
+.div41 h1{
+	font-size: 30px;
+	margin-top: 3%;
+}
+.div41 p{
+	font-size: 15px;
+	margin-top: 3%;
+}
+.div42{
+	background-color: white;
+	margin-top: 4%;
+	padding: 8%;
+	padding-bottom: 0%;
+}
+.div42 h1{
+	font-size: 30px;
+	margin-top: 3%;
+}
+.div42 p{
+	font-size: 15px;
+	margin-top: 3%;
+}
+.div422 a{
+	text-decoration: none;
+	color: black;
+}
+.sbilogo{
+	margin-top: 3%;
+}
+@media (max-width: 1366px){
+	.navigation a{
+		font-size: 14px;
+	}
 }
