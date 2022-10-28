@@ -235,8 +235,158 @@
 .sbilogo{
 	margin-top: 3%;
 }
+.sec6{
+	padding: 2%;
+	font-family: sans-serif;
+}
+
+.sec6div{
+	display: flex;
+	justify-content: space-between;
+	padding: 4%;
+
+
+}
+.paytm{
+	font-size: 50px;
+	margin-left: 1%;
+	margin-bottom: 2
+	%;
+}
+.bank{
+	font-size: 35px;
+	margin-left: 1%;
+	margin-top: 9%;
+
+}
+.div61 p{
+	font-size: 25px;
+	margin-top: 8%;
+	margin-bottom: 6%;
+}
+.div61 a{
+	background-color: #02386e;
+	text-decoration: none;
+	color: white;
+	border-radius: 30px;
+	width: 50%;
+	padding: 2%;
+
+}
+.div61 a:hover{
+	background-color: #00adf2;
+	border-radius: 16px;
+}
 @media (max-width: 1366px){
 	.navigation a{
 		font-size: 14px;
 	}
+}
+@media(max-width: 390px){
+	.navigation a{
+		font-size: 4px;
+
+	}
+	.smile{
+		font-size: 7px;
+	}
+	.sec2{
+		font-size:8px ;
+	}
+	.recharge{
+		font-size:8px ;
+	}
+	.downloadapp{
+		font-size: 5px;
+	}
+	.sec3{
+		font-size: 8px;
+	}
+	.div1{
+		font-size: 8px;
+	}
+	.sec4{
+		font-size: 8px;
+	}
+	.div3{
+		font-size: 8px;
+	}
+	.div1{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+	}
+	.div3{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.sec5{
+		font-size: 8px;
+	}
+	.paytm{
+		font-size: 8px;
+	}
+	.sec5div1{
+		font-size: 8px;
+	}
+	.sec5div2{
+		font-size: 8px;
+	}
+	.upilogo{
+		font-size: 8px;
+	}
+	.sec5div2 h1{
+		font-size: 5px;
+	}
+	.upi{
+		font-size: 5px !important;
+	}
+	.sec5div3{
+		font-size: 8px;
+	}
+	.sec5div31{
+		font-size: 5px;
+	}
+	.div31{
+		font-size: 5px;
+	}
+	.div31 h1{
+		font-size: 8px;
+	}
+	.div31 a{
+		font-size: 8px;
+	}
+	.sec5div41{
+		font-size: 5px;
+	}
+	.sec5div411{
+		font-size: 5px;
+	}
+	.sec5div42{
+		font-size: 8px;
+	}
+	.sec6{
+		font-size: 8px;
+	}
+	.paytm{
+		font-size: 8px;
+	}
+	.sec6div{
+		font-size: 8px;
+	}
+	.div61{
+		font-size: 8px;
+	}
+	.bank{
+		font-size: 8px;
+	}
+	.div61 p{
+		font-size: 8px;
+	}
+	.div61 a{
+		font-size: 8px;
+	}
+		
 }
